@@ -37,11 +37,11 @@ To train model on different faces, follow the given steps:<br>
       python live_recognition.py
       ```
 
-## Examples:
+
 
 __NOTE:__ Faces with __Unidentified__ labels are faces on which the model is not trained.
 
-__Example #1:__
+__Example__
 <br>Before:<br>
 <img src=https://github.com/ashukanderi/Face-Recognition-using-Facenet/blob/master/img1.jpg width=50%>
 <br>After:<br>
