@@ -16,7 +16,7 @@ It is trained on faces of some celebrities.
   
 * __Training on other faces:__ <br>
 To train model on different faces, follow the given steps:<br>
-  1. Put the images containing clear frontal face in [`/data/images/`] directory.
+  1. Put the images containing clear frontal face.
   1. Open the repository directory in terminal and run following commands in given order:
      1. `cd script`
      1. `python generate_data.py`
@@ -24,12 +24,12 @@ To train model on different faces, follow the given steps:<br>
   
 * __Testing/Detecting faces:__ <br>
   1. __Face Recognition from Images__:
-     1. Put the images containing the faces to predict in [`/test/`] directory.
+     1. Put the images containing the faces to predict.
      1. Open the repository directory in terminal and run following command:
       ```
           python image_recognition.py
       ```
-     1. Output images will then be available in [`/test/predicted/`] directory.
+     1. Output images will then be available.
    
   1. __Live Face Recognition(Obviously using camera):__
    <br>Open the repository directory in terminal and run following command:
